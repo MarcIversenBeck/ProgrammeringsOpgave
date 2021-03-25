@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[insert_booking] (
+    [Id]      INT          IDENTITY (1, 1) NOT NULL,
+    [navn]    VARCHAR (50) NULL,
+    [mbnr]    VARCHAR (50) NULL,
+    [medarb]  VARCHAR (50) NULL,
+    [service] VARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
